@@ -7,7 +7,7 @@ const renderField = ({
     max,
     value,
     defaultValue,
-    meta: { touched, error },
+    meta: { touched, error, warning },
 }) => (
     <div>
         <label>{label}</label>
@@ -22,7 +22,9 @@ const renderField = ({
                 defaultValue={defaultValue}
                 type={type}
             />
-            {touched && error && <span>{error}</span>}
+            {touched &&
+        ((error && <span style={{color: 'red'}}>{error}</span>) ||
+          (warning && <span>{warning}</span>))}
         </div>
     </div>
 );
