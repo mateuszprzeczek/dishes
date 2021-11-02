@@ -1,4 +1,5 @@
 const validate = values => {
+ 
   const errors = {}
   if (!values.name) {
     errors.name = 'Required'
@@ -7,6 +8,10 @@ const validate = values => {
   }
   if (!values.preparation_time) {
     errors.preparation_time = 'Required'
+  } else if(values.preparation_time === '00:00:00') {
+    errors.preparation_time = 'Choose preparation time'
+  } else if(parseInt(values.preparation_time.slice(3)) < 10 && parseInt(values.preparation_time.slice(1)) === 0) {
+      errors.preparation_time = "Preparation time can't be under 10 minutes"
   }
   if (!values.no_of_slices) {
     errors.no_of_slices = 'Required'
