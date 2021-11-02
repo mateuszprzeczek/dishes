@@ -1,31 +1,33 @@
-npm version: 6.14.8
-node version: v14.15.1
+npm version: 6.14.8  
+node version: v14.15.1  
 
-If you want run this app locally on your machine, follow this steps:
-Step 1:
-git clone [repository url]
+If you want run this app locally on your machine, follow this steps:  
+Step 1:  
+git clone [repository url]  
+  
+Step 2:  
+cd [local repository]  
+  
+Step 3:  
+Check package.json file and ensure scripts are notated as below:  
+  
+"scripts": {  
+    "start": "react-scripts start",  
+    "build": "react-scripts build",  
+    "test": "react-scripts test",  
+    "eject": "react-scripts eject"  
+  },  
+    
+Step 4:   
+Delete the node_modules folder and any 'lock' files such as   
+yarn.lock or package-lock.json if present.  
+  
+Step 5:    
+npm install  
 
-Step 2:
-cd [local repository]
-Step 3:
-Check package.json file and ensure scripts are notated as below:
-
-"scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-Step 4: 
-Delete the node_modules folder and any 'lock' files such as 
-yarn.lock or package-lock.json if present.
-
-Step 5: 
-npm install
-
-Step 6:
-npm start
-
+Step 6:  
+npm start  
+  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
