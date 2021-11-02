@@ -36,7 +36,7 @@ export default (async function showResults(values) {
         },
     };
     try {
-        const res = await fetch(URL, requestOptions);
+        const res = await fetch(URL, requestOptions, {mode: 'cors'});
         const data = await res.json();
         window.alert(`Response:\n\n${JSON.stringify(data, null, 2)}`);
     } catch (error) {
