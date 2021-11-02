@@ -1,6 +1,6 @@
 import React from "react";
-import { Field } from 'redux-form';
-import renderField from '../../renderField';
+import { Field } from "redux-form";
+import renderField from "../../renderField";
 
 let Soup = () => {
     return (
@@ -17,9 +17,8 @@ let Soup = () => {
                 defaultValue="-1"
                 label="spiciness scale 1-10"
             />
-        </div>       
-    )
-}
-
+        </div>
+    );
+};
 
 export default Soup;
