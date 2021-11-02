@@ -15,6 +15,9 @@ const validate = (values) => {
     ) {
         errors.preparation_time = "Preparation time can't be under 10 minutes";
     }
+    if(!values.type || 'none' === values.type) {
+        errors.type = "Please choose type of a dish"
+    }
     if (!values.no_of_slices) {
         errors.no_of_slices = "Required";
     } else if (isNaN(Number(values.no_of_slices))) {
