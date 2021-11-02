@@ -20,7 +20,7 @@ export default (async function showResults(values) {
             type: values.type,
             spiciness_scale: parseInt(values.spiciness_scale),
         };
-    } else if (values.type === "sandwith") {
+    } else if (values.type === "sandwich") {
         result = {
             name: values.name,
             preparation_time: values.preparation_time,
