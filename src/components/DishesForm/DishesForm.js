@@ -16,7 +16,7 @@ let DishesForm = (props) => {
     const categories = [
         {
             value: 'none',
-            name: 'Select Dish Type', 
+            name: 'Dish Type', 
         },
         {
             value: 'pizza',
