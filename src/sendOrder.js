@@ -38,7 +38,7 @@ export default (async function showResults(values) {
     try {
         const res = await fetch(URL, requestOptions);
         const data = await res.json();
-        console.log("data: ", data);
+        window.alert(`Response:\n\n${JSON.stringify(data, null, 2)}`);
     } catch (error) {
         window.alert(error);
     }
