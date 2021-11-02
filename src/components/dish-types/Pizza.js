@@ -1,6 +1,7 @@
 import React from "react";
 import { Field } from "redux-form";
 import renderField from "../../renderField";
+import pizzaImg from '../../img/pizza.jpg'
 
 let Pizza = () => {
     return (
@@ -23,6 +24,7 @@ let Pizza = () => {
                 placeholder="diameter"
                 label="Diameter"
             />
+            <img src={pizzaImg} alt='pizza' style={{width: '200px'}}/>
         </>
     );
 };
