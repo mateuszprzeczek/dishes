@@ -33,6 +33,7 @@ export default (async function showResults(values) {
         body: JSON.stringify(result, null, 2),
         headers: {
             "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "https://mateuszprzeczek.github.io"
         },
     };
     try {
