@@ -23,6 +23,7 @@ let Pizza = () => {
                      type="number"
                      step="0.1"
                      min="23.0"
+                     max="50.0"
                      placeholder="diameter"
                    />
                  </div>
