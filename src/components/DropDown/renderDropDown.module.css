@@ -8,3 +8,9 @@
     appearance: button;
     outline: none;
 }
+
+@media (max-width: 400px) {
+    .select {
+        width: 70%;
+    }
+}

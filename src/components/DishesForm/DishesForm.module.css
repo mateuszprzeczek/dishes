@@ -51,6 +51,8 @@ body {
     background-image: url('../../img/dinner-g9c23169f1_1280.png');
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #002868;
 }
 
