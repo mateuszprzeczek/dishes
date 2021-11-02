@@ -20,6 +20,20 @@ const validate = values => {
   } else if (Number(values.no_of_slices) < 4) {
     errors.no_of_slices = 'Sorry, you must order at least 4 piecess'
   }
+  if (!values.diameter) {
+    errors.diameter = 'Required'
+  } else if (values.diameter.max > 50.0) {
+    errors.diameter = 'Sorry, 50 is max value'
+  }
+  if (!values.slices_of_bread) {
+    errors.slices_of_bread = 'Required'
+  } else if (values.slices_of_bread.max > 10) {
+    errors.slices_of_bread = 'Sorry, 10 is max value'
+  }
+  if(!values.spiciness_scale) {
+    errors.spiciness_scale = "Choose spiciness scale 1-10"
+  }
+
   return errors
 }
 
