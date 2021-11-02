@@ -36,11 +36,10 @@ export default (async function showResults(values) {
         },
     };
     try {
-        const res = await fetch(URL, requestOptions, { mode: "cors" });
+        const res = await fetch(URL, requestOptions);
         const data = await res.json();
         console.log("data: ", data);
     } catch (error) {
         window.alert(error);
     }
-    window.alert(`You submitted:\n\n${JSON.stringify(result, null, 2)}`);
 });
