@@ -1,0 +1,10 @@
+.select {
+    background-color: #AAE2E7;
+    padding: 8px;
+    width: 50%;
+    border: none;
+    font-size: 20px;
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
