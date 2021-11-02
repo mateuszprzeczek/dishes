@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8692ea8.chunk.css",
-    "main.js": "/static/js/main.3b535e50.chunk.js",
-    "main.js.map": "/static/js/main.3b535e50.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.888d3fd8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.888d3fd8.js.map",
-    "static/js/2.32c7fdf5.chunk.js": "/static/js/2.32c7fdf5.chunk.js",
-    "static/js/2.32c7fdf5.chunk.js.map": "/static/js/2.32c7fdf5.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.d8692ea8.chunk.css.map": "/static/css/main.d8692ea8.chunk.css.map",
-    "static/js/2.32c7fdf5.chunk.js.LICENSE.txt": "/static/js/2.32c7fdf5.chunk.js.LICENSE.txt",
-    "static/media/DishesForm.module.css": "/static/media/dinner-g9c23169f1_1280.c1381484.png",
-    "static/media/pizza.17fedf7b.jpg": "/static/media/pizza.17fedf7b.jpg",
-    "static/media/sandwich.138ae38d.jpg": "/static/media/sandwich.138ae38d.jpg",
-    "static/media/soup.d2d47de3.jpg": "/static/media/soup.d2d47de3.jpg"
+    "main.css": "/dishes/static/css/main.a5744cfa.chunk.css",
+    "main.js": "/dishes/static/js/main.08ec86a2.chunk.js",
+    "main.js.map": "/dishes/static/js/main.08ec86a2.chunk.js.map",
+    "runtime-main.js": "/dishes/static/js/runtime-main.76221302.js",
+    "runtime-main.js.map": "/dishes/static/js/runtime-main.76221302.js.map",
+    "static/js/2.32c7fdf5.chunk.js": "/dishes/static/js/2.32c7fdf5.chunk.js",
+    "static/js/2.32c7fdf5.chunk.js.map": "/dishes/static/js/2.32c7fdf5.chunk.js.map",
+    "index.html": "/dishes/index.html",
+    "static/css/main.a5744cfa.chunk.css.map": "/dishes/static/css/main.a5744cfa.chunk.css.map",
+    "static/js/2.32c7fdf5.chunk.js.LICENSE.txt": "/dishes/static/js/2.32c7fdf5.chunk.js.LICENSE.txt",
+    "static/media/DishesForm.module.css": "/dishes/static/media/dinner-g9c23169f1_1280.c1381484.png",
+    "static/media/pizza.17fedf7b.jpg": "/dishes/static/media/pizza.17fedf7b.jpg",
+    "static/media/sandwich.138ae38d.jpg": "/dishes/static/media/sandwich.138ae38d.jpg",
+    "static/media/soup.d2d47de3.jpg": "/dishes/static/media/soup.d2d47de3.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.888d3fd8.js",
+    "static/js/runtime-main.76221302.js",
     "static/js/2.32c7fdf5.chunk.js",
-    "static/css/main.d8692ea8.chunk.css",
-    "static/js/main.3b535e50.chunk.js"
+    "static/css/main.a5744cfa.chunk.css",
+    "static/js/main.08ec86a2.chunk.js"
   ]
 }
